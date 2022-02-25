@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDC56D327C9454200B8178B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56D227C9454200B8178B /* Tests_iOS.swift */; };
+		5EDC56D527C9454200B8178B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56D427C9454200B8178B /* Tests_iOSLaunchTests.swift */; };
+		5EDC56DF27C9454200B8178B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56DE27C9454200B8178B /* Tests_macOS.swift */; };
+		5EDC56E127C9454200B8178B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56E027C9454200B8178B /* Tests_macOSLaunchTests.swift */; };
+		5EDC56E227C9454200B8178B /* Phys440HW4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56BA27C9453D00B8178B /* Phys440HW4App.swift */; };
+		5EDC56E327C9454200B8178B /* Phys440HW4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56BA27C9453D00B8178B /* Phys440HW4App.swift */; };
+		5EDC56E427C9454200B8178B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56BB27C9453D00B8178B /* ContentView.swift */; };
+		5EDC56E527C9454200B8178B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56BB27C9453D00B8178B /* ContentView.swift */; };
+		5EDC56E627C9454200B8178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC56BC27C9454200B8178B /* Assets.xcassets */; };
+		5EDC56E727C9454200B8178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC56BC27C9454200B8178B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EDC56CF27C9454200B8178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDC56B527C9453D00B8178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDC56C027C9454200B8178B;
+			remoteInfo = "Phys440HW4 (iOS)";
+		};
+		5EDC56DB27C9454200B8178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDC56B527C9453D00B8178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDC56C627C9454200B8178B;
+			remoteInfo = "Phys440HW4 (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EDC56BA27C9453D00B8178B /* Phys440HW4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440HW4App.swift; sourceTree = "<group>"; };
+		5EDC56BB27C9453D00B8178B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EDC56BC27C9454200B8178B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EDC56C127C9454200B8178B /* Phys440HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phys440HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDC56C727C9454200B8178B /* Phys440HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phys440HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDC56C927C9454200B8178B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5EDC56CE27C9454200B8178B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDC56D227C9454200B8178B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		5EDC56D427C9454200B8178B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		5EDC56DA27C9454200B8178B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDC56DE27C9454200B8178B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		5EDC56E027C9454200B8178B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EDC56BE27C9454200B8178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56C427C9454200B8178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56CB27C9454200B8178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56D727C9454200B8178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EDC56B427C9453D00B8178B = {
+			isa = PBXGroup;
+			children = (
+				5EDC56B927C9453D00B8178B /* Shared */,
+				5EDC56C827C9454200B8178B /* macOS */,
+				5EDC56D127C9454200B8178B /* Tests iOS */,
+				5EDC56DD27C9454200B8178B /* Tests macOS */,
+				5EDC56C227C9454200B8178B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EDC56B927C9453D00B8178B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC56BA27C9453D00B8178B /* Phys440HW4App.swift */,
+				5EDC56BB27C9453D00B8178B /* ContentView.swift */,
+				5EDC56BC27C9454200B8178B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5EDC56C227C9454200B8178B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC56C127C9454200B8178B /* Phys440HW4.app */,
+				5EDC56C727C9454200B8178B /* Phys440HW4.app */,
+				5EDC56CE27C9454200B8178B /* Tests iOS.xctest */,
+				5EDC56DA27C9454200B8178B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EDC56C827C9454200B8178B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC56C927C9454200B8178B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5EDC56D127C9454200B8178B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC56D227C9454200B8178B /* Tests_iOS.swift */,
+				5EDC56D427C9454200B8178B /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		5EDC56DD27C9454200B8178B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5EDC56DE27C9454200B8178B /* Tests_macOS.swift */,
+				5EDC56E027C9454200B8178B /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EDC56C027C9454200B8178B /* Phys440HW4 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC56EA27C9454200B8178B /* Build configuration list for PBXNativeTarget "Phys440HW4 (iOS)" */;
+			buildPhases = (
+				5EDC56BD27C9454200B8178B /* Sources */,
+				5EDC56BE27C9454200B8178B /* Frameworks */,
+				5EDC56BF27C9454200B8178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phys440HW4 (iOS)";
+			productName = "Phys440HW4 (iOS)";
+			productReference = 5EDC56C127C9454200B8178B /* Phys440HW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EDC56C627C9454200B8178B /* Phys440HW4 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC56ED27C9454200B8178B /* Build configuration list for PBXNativeTarget "Phys440HW4 (macOS)" */;
+			buildPhases = (
+				5EDC56C327C9454200B8178B /* Sources */,
+				5EDC56C427C9454200B8178B /* Frameworks */,
+				5EDC56C527C9454200B8178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phys440HW4 (macOS)";
+			productName = "Phys440HW4 (macOS)";
+			productReference = 5EDC56C727C9454200B8178B /* Phys440HW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EDC56CD27C9454200B8178B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC56F027C9454200B8178B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				5EDC56CA27C9454200B8178B /* Sources */,
+				5EDC56CB27C9454200B8178B /* Frameworks */,
+				5EDC56CC27C9454200B8178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDC56D027C9454200B8178B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 5EDC56CE27C9454200B8178B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5EDC56D927C9454200B8178B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC56F327C9454200B8178B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				5EDC56D627C9454200B8178B /* Sources */,
+				5EDC56D727C9454200B8178B /* Frameworks */,
+				5EDC56D827C9454200B8178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDC56DC27C9454200B8178B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 5EDC56DA27C9454200B8178B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EDC56B527C9453D00B8178B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5EDC56C027C9454200B8178B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5EDC56C627C9454200B8178B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5EDC56CD27C9454200B8178B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5EDC56C027C9454200B8178B;
+					};
+					5EDC56D927C9454200B8178B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5EDC56C627C9454200B8178B;
+					};
+				};
+			};
+			buildConfigurationList = 5EDC56B827C9453D00B8178B /* Build configuration list for PBXProject "Phys440HW4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EDC56B427C9453D00B8178B;
+			productRefGroup = 5EDC56C227C9454200B8178B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EDC56C027C9454200B8178B /* Phys440HW4 (iOS) */,
+				5EDC56C627C9454200B8178B /* Phys440HW4 (macOS) */,
+				5EDC56CD27C9454200B8178B /* Tests iOS */,
+				5EDC56D927C9454200B8178B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EDC56BF27C9454200B8178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56E627C9454200B8178B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56C527C9454200B8178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56E727C9454200B8178B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56CC27C9454200B8178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56D827C9454200B8178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDC56BD27C9454200B8178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56E427C9454200B8178B /* ContentView.swift in Sources */,
+				5EDC56E227C9454200B8178B /* Phys440HW4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56C327C9454200B8178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56E527C9454200B8178B /* ContentView.swift in Sources */,
+				5EDC56E327C9454200B8178B /* Phys440HW4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56CA27C9454200B8178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56D527C9454200B8178B /* Tests_iOSLaunchTests.swift in Sources */,
+				5EDC56D327C9454200B8178B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDC56D627C9454200B8178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC56E127C9454200B8178B /* Tests_macOSLaunchTests.swift in Sources */,
+				5EDC56DF27C9454200B8178B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EDC56D027C9454200B8178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDC56C027C9454200B8178B /* Phys440HW4 (iOS) */;
+			targetProxy = 5EDC56CF27C9454200B8178B /* PBXContainerItemProxy */;
+		};
+		5EDC56DC27C9454200B8178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDC56C627C9454200B8178B /* Phys440HW4 (macOS) */;
+			targetProxy = 5EDC56DB27C9454200B8178B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EDC56E827C9454200B8178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EDC56E927C9454200B8178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5EDC56EB27C9454200B8178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440HW4;
+				PRODUCT_NAME = Phys440HW4;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EDC56EC27C9454200B8178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440HW4;
+				PRODUCT_NAME = Phys440HW4;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EDC56EE27C9454200B8178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440HW4;
+				PRODUCT_NAME = Phys440HW4;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5EDC56EF27C9454200B8178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Phys440HW4;
+				PRODUCT_NAME = Phys440HW4;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5EDC56F127C9454200B8178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phys440HW4 (iOS)";
+			};
+			name = Debug;
+		};
+		5EDC56F227C9454200B8178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phys440HW4 (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EDC56F427C9454200B8178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Phys440HW4 (macOS)";
+			};
+			name = Debug;
+		};
+		5EDC56F527C9454200B8178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Phys440HW4 (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EDC56B827C9453D00B8178B /* Build configuration list for PBXProject "Phys440HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC56E827C9454200B8178B /* Debug */,
+				5EDC56E927C9454200B8178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC56EA27C9454200B8178B /* Build configuration list for PBXNativeTarget "Phys440HW4 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC56EB27C9454200B8178B /* Debug */,
+				5EDC56EC27C9454200B8178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC56ED27C9454200B8178B /* Build configuration list for PBXNativeTarget "Phys440HW4 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC56EE27C9454200B8178B /* Debug */,
+				5EDC56EF27C9454200B8178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC56F027C9454200B8178B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC56F127C9454200B8178B /* Debug */,
+				5EDC56F227C9454200B8178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC56F327C9454200B8178B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC56F427C9454200B8178B /* Debug */,
+				5EDC56F527C9454200B8178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EDC56B527C9453D00B8178B /* Project object */;
+}
