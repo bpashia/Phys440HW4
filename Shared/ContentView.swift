@@ -76,7 +76,7 @@ struct ContentView: View {
 }
     func calculateSquareWellWaveFunction(){
         dataClass.changingPlotParameters.xMax = 10.0
-        dataClass.changingPlotParameters.yMax = 10.0
+        dataClass.changingPlotParameters.yMax = 1.0
         dataClass.changingPlotParameters.lineColor = .green()
 
         let Energy = rk4.eigenEnergies[selectedEigenEnergy]
@@ -92,7 +92,7 @@ struct ContentView: View {
     func calculateFunctional(){
         dataClass.changingPlotParameters.lineColor = .green()
         dataClass.changingPlotParameters.xMax = 100.0
-        dataClass.changingPlotParameters.yMax = 10.0
+        dataClass.changingPlotParameters.yMax = 1.0
         dataClass.changingPlotParameters.title = "Functional"
 
 

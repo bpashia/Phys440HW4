@@ -75,13 +75,18 @@ class RungeKutta: NSObject, ObservableObject{
         sumForNormalization += pow(psi,2)
 
         tempResults.append((xVal: x, yVal: psi))
+        var normalizationCheck = 0.0
 //        print((xVal: x, yVal: psi))
         for i in 0...tempResults.count-1{
             let tempResult = tempResults[i]
 //            waveEquationContentArray.append([.X:tempResult.xVal,.Y:tempResult.yVal/sumForNormalization])
-            waveEquationContentArray.append([.X:tempResult.xVal,.Y:tempResult.yVal])
+            waveEquationContentArray.append([.X:tempResult.xVal,.Y:tempResult.yVal * pow(1.0 / sumForNormalization, 0.5)])
+            
+            normalizationCheck += (1.0/sumForNormalization) * pow(tempResult.yVal, 2)
 
         }
+        print("SUM: " + String(normalizationCheck))
+        
     }
     
     func bisect(eMin: Double, eMax:Double, prevFunctionalMaxVal:Double,prevFunctionalMinVal:Double, x0: Double, h:Double, xMax: Double, potential:Potential )->Double{
